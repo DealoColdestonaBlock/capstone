@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+.hero-image {
+  background-image: url(gumball.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero-image1 {
+  background-image: url(dragonballz.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero-image2 {
+  background-image: url(hbl.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box{
+  width: 20vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d4d2d2;
+  border: 1px solid black;
+  padding: 10px;
+}
