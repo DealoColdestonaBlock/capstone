@@ -298,7 +298,7 @@ function searchShows(searchTerm) {
   });
 
   renderShows(filtered)
-  showCartoon(filtered)
+  showCartoon(filtered[0])
 }
 
 function saveSearchTerm(searchTerm){

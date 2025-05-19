@@ -315,7 +315,7 @@ function searchShows(searchTerm) {
   })
 
   renderShows(filtered)
-
+   showTV(filtered[0])
 }
 
 function saveSearchTerm() {}

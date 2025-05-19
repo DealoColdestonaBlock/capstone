@@ -319,6 +319,7 @@ function searchShows(searchTerm) {
   })
 
   renderShows(filtered)
+  showAnime(filtered[0])
 }
 
 function saveSearchTerm() {}
